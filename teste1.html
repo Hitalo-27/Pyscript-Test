@@ -11,7 +11,7 @@
     <div id="pi" class="alert alert-primary"></div>
     <py-script>
       import datetime as dt
-      pyscript.write('today', dt.date.today().strftime('%A %B %d, %Y'))
+      pyscript.write('today', dt.date.today().strftime('%A %d, %B %Y'))
 
       def compute_pi(n):
           pi = 2
@@ -21,6 +21,8 @@
 
       pi = compute_pi(100000)
       pyscript.write('pi', f'π é aproximadamente {pi:.3f}')
+
     </py-script>
+    <py-button> 'Hello, World!' </py-button>
   </body>
 </html>

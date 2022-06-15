@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Grafico</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    </head>
+    <body>
+    <py-script>
+        import numpy as np
+        
+        def x_y_aleatorio(n):
+            x = np.random.randn(n)
+            y = np.random.randn(n)
+            return x,y
+    </py-script>
+
+    </body>
+</html>
